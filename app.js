@@ -18,7 +18,7 @@ function displayTime() {
   timeoutID = setTimeout(displayTime, 10);
 }
 
-startButton.addEventListener('click', () => {
+startButton.addEventListener('click', function() {
   startButton.disabled = true;
   stopButton.disabled = false;
   resetButton.disabled = true;
